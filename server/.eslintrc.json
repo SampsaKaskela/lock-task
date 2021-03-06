@@ -1,0 +1,21 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
+    "env": {
+        "node": true
+    },
+    "rules": {
+        "arrow-spacing": ["warn", { "before": true, "after": true }],
+        "brace-style": ["warn", "1tbs"],
+        "indent": ["warn", 4, { "SwitchCase": 1 }],
+        "jsx-quotes": ["warn", "prefer-single"],
+        "no-trailing-spaces": ["warn"],
+        "no-var": ["warn"],
+        "object-curly-spacing": ["warn", "always"],
+        "prefer-const": ["warn"],
+        "quotes": ["warn", "single"],
+        "semi": ["warn", "always"],
+        "semi-spacing": ["warn", { "before": false, "after": true }]
+    }
+}

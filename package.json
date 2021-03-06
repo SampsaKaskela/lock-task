@@ -1,0 +1,25 @@
+{
+    "name": "lock-task",
+    "version": "0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SampsaKaskela/lock-task.git"
+    },
+    "homepage": "https://github.com/SampsaKaskela/lock-task#readme",
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*.js": [
+            "eslint --fix",
+            "git add"
+        ]
+    },
+    "devDependencies": {
+        "eslint": "^7.21.0",
+        "husky": "^4.0.0",
+        "lint-staged": "^10.5.4"
+    }
+}
